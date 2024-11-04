@@ -38,7 +38,7 @@ public class TextReaderTest {
         // Testfall 1: En enkel rad med fyra ord
         String line1 = "Det här är ett test";
         int wordCount1 = textCounter.countWords(line1);
-        assertEquals(5, wordCount1, "Antalet ord borde vara 4 för raden: 'Det här är ett test'");
+        assertEquals(5, wordCount1, "Antalet ord borde vara 5 för raden: 'Det här är ett test'");
 
     }
 
