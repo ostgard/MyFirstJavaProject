@@ -39,7 +39,7 @@ public class TextReader {
         System.out.println(" på " + textCounter.getCountRows() + " rader");
         System.out.println("Totalt antal ord: " + totalWords);
     //Jag får inte till längsta ordet
-        System.out.println("Det längsta ordet är: " + textCounter.getLongestWord());
+       // System.out.println("Det längsta ordet är: " + textCounter.getLongestWord());
 
     }
 }
