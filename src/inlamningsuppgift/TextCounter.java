@@ -9,7 +9,7 @@ public class TextCounter {
     private int countRows;
 
     //fler variabler, del3 av övningen
-       // private String longestWord = "";
+    // private String longestWord = "";
 
     //jag vill visa en summering av antal tecken och rader efter att while loopen avslutats
 
@@ -23,7 +23,6 @@ public class TextCounter {
     public void addLine(String line) {
         countRows++;
         countChars += line.length();
-
     }
 
     public int getCountRows() {
@@ -39,7 +38,6 @@ public class TextCounter {
     public int countWords(String line) {
         String[] words = line.split(" ");
         return words.length;
-
     }
 
 //    Skriver ut det längsta ordet
