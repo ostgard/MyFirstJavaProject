@@ -9,7 +9,8 @@ public class TextCounter {
     private int countRows;
 
     //fler variabler, del3 av övningen
-    // private String longestWord = "";
+    private String longestWord = "";
+    private int longestWordLenght = 0;
 
     //jag vill visa en summering av antal tecken och rader efter att while loopen avslutats
 
@@ -38,12 +39,23 @@ public class TextCounter {
     public int countWords(String line) {
         String[] words = line.split(" ");
         return words.length;
+
     }
 
-//    Skriver ut det längsta ordet
-//    public String getLongestWord(){
-//        return longestWord;
-//    }
+    //Skriver ut det längsta ordet
+    public String getLongestWord() {
+        return longestWord;
+    }
+
+    public void setLongestWord(String line) {
+        String[] wordsArray = line.split(" ");
+        for (int i = 0; i < wordsArray.length; i++) {
+            if (wordsArray[i].length() > longestWordLenght) {
+                longestWordLenght = wordsArray[i].length();
+                longestWord = wordsArray[i];
+            }
+        }
+    }
 
 //    Kontrollen om användaren har skrivit ordet stop eller inte måste ligga i den andra ”logik-klassen”
 

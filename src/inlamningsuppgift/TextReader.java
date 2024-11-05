@@ -28,8 +28,11 @@ public class TextReader {
                 int wordCount = textCounter.countWords(line);
                 totalWords += wordCount; //Lägger till radens antal ord
 
+                textCounter.setLongestWord(line);
+
                 //System.out.println("Du skrev in: " + text);
                 System.out.println("Du kan fortsätta skriva in mer text, för att avsluta så skriver du: stop");
+
 
             }
         }
@@ -39,7 +42,7 @@ public class TextReader {
         System.out.println(" på " + textCounter.getCountRows() + " rader");
         System.out.println("Totalt antal ord: " + totalWords);
     //Jag får inte till längsta ordet
-       // System.out.println("Det längsta ordet är: " + textCounter.getLongestWord());
+       System.out.println("Det längsta ordet är: " + textCounter.getLongestWord());
 
     }
 }
