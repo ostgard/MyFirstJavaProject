@@ -1,4 +1,3 @@
-
 Del 1
 
 Redogör för en likhet och en skillnad mellan programmeringsspråken Java och Python:
@@ -31,8 +30,7 @@ på så vis kan flera personer koda i samma projekt samtidigt.
 
 Beskriv kort utvecklingsprocessen TDD:
 Testdriven utveckling innebär att utvecklarna skriver enhetstester och testar koden i ett tidigt skede. Jobbar man enligt TDD så skriver man först testet, innan man skriver koden. Det första test man skriver ska också vara ett som felar, för att säkerställa att du kan skriva kod som sedan klarar testet, man följer cykeln Test fails, Test passes, Refactor. 
-När enhetstester är på plats kommer det även senare vara mycket säkrare att refaktorera kod när man vet att ett test skulle fånga upp eventuella buggar tidigt. ![image](https://github.com/user-attachments/assets/cffca310-7c76-4b50-9423-f6e156c34c92)
-
+När enhetstester är på plats kommer det även senare vara mycket säkrare att refaktorera kod när man vet att ett test skulle fånga upp eventuella buggar tidigt. 
 
 
 Del 2 & 3 ligger under src/inlamningsuppgift
